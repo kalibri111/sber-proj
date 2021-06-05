@@ -1,0 +1,11 @@
+.card-img-top {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card {
+    align-content: center;
+    margin-top: 2rem;
+}
