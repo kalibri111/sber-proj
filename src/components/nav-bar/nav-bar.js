@@ -18,7 +18,6 @@ class NavBar extends Component {
 
     render() {
 
-        console.log(this.state.active_id);
         return (
             <div className="navbar nav nav-pills">
                 <NavButton id={1} linkTo={"/"}           labelText={"Обо мне"}     onLabelClick={this.setActive} classText={this.getClassText(1)}/>
