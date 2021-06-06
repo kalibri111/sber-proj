@@ -12,7 +12,6 @@ class NavButton extends Component {
     }
 
     clickListener = () => {
-        console.log("NavButton id is ".concat(this.state.id));
         this.props.onLabelClick(this.state.id);
     }
 
