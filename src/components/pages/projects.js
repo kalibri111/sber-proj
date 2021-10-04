@@ -24,6 +24,10 @@ const ProjectsPage = () => {
             <ProjectItem projectLink={"https://github.com/kalibri111/StepStatistic"}
                          projectDescription={"Приложение для сбора данных с BLE-устройства, было нужно для проекта, по которому я получил грант УМНИК"}
             />
+
+            <ProjectItem projectLink={"https://github.com/kalibri111/javael-to-feel/tree/v1.0"}
+                         projectDescription={"Написанный на летней стажировке синтаксический анализатор - переводчик"}
+            />
         </div>
     );
 }
