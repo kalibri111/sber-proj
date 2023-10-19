@@ -1,1 +1,1 @@
-Мой сайт-визитка, по мере необходимости буду обновлять
+Dockerfile usage example. It contains node and nginx images in one Dockerfile
