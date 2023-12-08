@@ -1,0 +1,17 @@
+---
+- hosts: "all"
+  tasks:
+  - name: Fetch
+    git:
+      repo: https://github.com/kalibri111/sber-proj.git
+      dest: scripts/
+    failed_when: false
+  
+  - name: Change file ownership, group and permissions
+    file:
+      path: scripts/
+      mode: '0777'
+      recurse: true
+  
+  - name: Run
+    shell: ./scripts/monitoring.sh 
